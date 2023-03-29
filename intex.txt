@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bulk Email Service</title>
+  </head>
+  <body>
+    <h1>Bulk Email Service</h1>
+    <form method="post">
+      <div>
+        <label for="recipients">Recipients (separated by commas):</label>
+        <input type="text" name="recipients" id="recipients">
+      </div>
+      <div>
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      <button type="submit">Send Email(s)</button>
+    </form>
+  </body>
+</html>
